@@ -9,7 +9,9 @@ The attached nmapScan binary was compiled using G++.
 [^] Usage
 
 ./nmapScan -i
+
 ./nmapScan -f
+
 ./nmapScan -h
 
 -i | --ip - This tag is used to define the ip address.
