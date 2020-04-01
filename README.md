@@ -6,8 +6,11 @@ make it easier for me to enumerate the machines i was scanning by just typing th
 
 
 [^] Usage
+
 [>] ./nmapScan -i
+
 [>] ./nmapScan -f
+
 [>] ./nmapScan -h
 
 [^] -i | --ip - This tag is used to define the ip address.
