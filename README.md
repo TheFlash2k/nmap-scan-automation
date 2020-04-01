@@ -8,19 +8,19 @@ The attached nmapScan binary was compiled using G++.
 
 [^] Usage
 
-[>] ./nmapScan -i
+./nmapScan -i
+./nmapScan -f
+./nmapScan -h
 
-[>] ./nmapScan -f
+-i | --ip - This tag is used to define the ip address.
+ 
+You don't have to define an ip address with the tag. The program will ask you for it.
 
-[>] ./nmapScan -h
+-f | --folder - This tag is used to define the name of the folder in which the files from the scan will be saved.
 
-[^] -i | --ip - This tag is used to define the ip address.
-[>] You don't have to define an ip address with the tag. The program will ask you for it.
+If you use only -f tag, the program will automatically prompt you for ip input.
 
-[^] -f | --folder - This tag is used to define the name of the folder in which the files from the scan will be saved.
-[>] If you use only -f tag, the program will automatically prompt you for ip input.
-
-[^] -h | --help - This tag displays the help menu i.e. this menu.
+-h | --help - This tag displays the help menu i.e. this menu.
 
 
 Requirements:
