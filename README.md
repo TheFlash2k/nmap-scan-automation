@@ -6,17 +6,17 @@ make it easier for me to enumerate the machines i was scanning by just typing th
 
 
 [^] Usage
-[*] ./nmapScan -i
-[*] ./nmapScan -f
-[*] ./nmapScan -h
+[>] ./nmapScan -i
+[>] ./nmapScan -f
+[>] ./nmapScan -h
 
-[>] -i | --ip - This tag is used to define the ip address.
-[*] You don't have to define an ip address with the tag. The program will ask you for it.
+[^] -i | --ip - This tag is used to define the ip address.
+[>] You don't have to define an ip address with the tag. The program will ask you for it.
 
-[>] -f | --folder - This tag is used to define the name of the folder in which the files from the scan will be saved.
-[*] If you use only -f tag, the program will automatically prompt you for ip input.
+[^] -f | --folder - This tag is used to define the name of the folder in which the files from the scan will be saved.
+[>] If you use only -f tag, the program will automatically prompt you for ip input.
 
-[>] -h | --help - This tag displays the help menu i.e. this menu.
+[^] -h | --help - This tag displays the help menu i.e. this menu.
 
 
 Requirements:
