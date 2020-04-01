@@ -7,6 +7,7 @@
 using namespace std;
 
 void help();
+void intro();
 void _setIP(string*);
 void _setFolder(string*);
 void createFolder(string*);
@@ -23,7 +24,9 @@ int main(int argc, char* argv[]) {
 	char _argumentcheck[50];
 	int fCount = 0;
 	int iCount = 0;
-
+	
+	intro();
+	
 	if(argc == 1) {
 		help();
 		return 0;
@@ -109,6 +112,17 @@ Scan:
 	return 0;
 }
 
+
+void intro() {
+	system("clear");
+	cout << "*******************************************************************************\n" << termcolor::magenta;
+	cout << "\t\t\tNMAP SCAN AUTOMATION SCRIPT.\n\n" << termcolor::blue;
+	cout << "\t\t\tWRITTEN BY: "<< termcolor::magenta << "@" << termcolor::red << "The" <<  termcolor::yellow << "Flash" << termcolor::green <<"2k\n\n" << termcolor::blue;
+	cout << "\t\t\tGITHUB: " << termcolor::red << "https://github.com/TheFlash2k/\n" << termcolor::reset;
+	cout << "*******************************************************************************\n";
+}
+
+
 void help() {
 	cout << termcolor::red << "\n[^]"<< termcolor::reset << " Usage \n\n";
 	cout << termcolor::blue << "[*]" << termcolor::reset << "./nmapScan -i \n";
@@ -120,6 +134,8 @@ void help() {
 	cout << termcolor::red << "\n[*] " << termcolor::reset << "If you use only -f tag, the program will automatically prompt you for ip input.\n";
 	cout << termcolor::cyan << "\n[>] " << termcolor::green << "-h | --help " << termcolor::reset << "- This tag displays the help menu i.e. this menu.\n\n\n";
 }
+
+
 
 void _setIP(string* ip) {
 	cout << termcolor::blue << "\n[>] "<< termcolor::reset <<  "Input an ip address that you want to scan: " << termcolor::green;
