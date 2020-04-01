@@ -4,6 +4,7 @@ I was bored during this quarantine so I decided to challenge myself in making a 
 an nmap scan automation with -sC -sV -oA parameters pre-defined. And because I use these parameters only, so, yeah, it did
 make it easier for me to enumerate the machines i was scanning by just typing the ip and nothing else.
 
+The attached nmapScan binary was compiled using G++.
 
 [^] Usage
 
