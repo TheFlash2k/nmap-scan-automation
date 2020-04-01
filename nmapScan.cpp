@@ -1,15 +1,22 @@
-#include "termcolor.hpp"
+/*
+Author: TheFlash2k 
+Date: April 1, 2020.
+Compiled Using: GCC v9.2.1 2020-02-24
+*/
+
 #include <iostream>
 #include <cstring>
 #include <string>
 #include <unistd.h>
+#include "termcolor.hpp"
+// Clone this hpp from - https://github.com/ikalnytskyi/termcolor/blob/master/include/termcolor/termcolor.hpp
 
 using namespace std;
 
 void help();
 void intro();
 void _setIP(string*);
-void _setFolder(string*);
+void _setFolderName(string*);
 void createFolder(string*);
 void _nmapScan(string,string);
 string GetStdoutFromCommand(string);
