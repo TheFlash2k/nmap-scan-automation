@@ -24,6 +24,7 @@ The attached nmapScan binary was compiled using G++.
 
 
 Requirements:
+
 [>]  Termcolor.hpp:
 In order to compile it, you're going to need Termcolor.hpp which is written by @ikalnytskyi. It can cloned from this link:
 https://github.com/ikalnytskyi/termcolor/blob/master/include/termcolor/termcolor.hpp
